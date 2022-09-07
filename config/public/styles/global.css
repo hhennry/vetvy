@@ -1,81 +1,102 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Overpass+Mono:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Overpass+Mono:wght@400;500;600&display=swap");
+
+@import url("./layout.css");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-
 :root {
-    /* Titles */
-    --Jr72Z28R: 600 1.5rem/130% "Overpass Mono", "JetBrains Mono", monospace;
-    --S6rA6c5a: 500 1.25rem/160% "Overpass Mono", "JetBrains Mono", monospace;
-    --izUi711s: 400 1.125rem/160% "Overpass Mono", "JetBrains Mono", monospace;
-    /* Text */
-    --Wi5L9q29: 400 1rem/160% "JetBrains Mono", monospace;
-    --If6O00YP: 400 .875rem/160% "JetBrains Mono", monospace;
-    --h57NJ1u6: 500 .75rem/160% "JetBrains Mono", monospace;
-    /* Collors */
-    --4B2tLF18: #040F1A;
-    --24SUsi1e: #071422;
-    --21qi9aTO: #0B1B2B;
-    --qW68S53o: #112131;
-    --1S3H03nK: #1C2F41;
-    --8j0Dyp1M: #3A536B;
-    --dnP6y7N9: #7B96B2;
-    --Uzv08AB4: #AFC2D4;
-    --WXmW131M: #C4D4E3;
-    --x967KF5W: #E7EDF4;
-    --9Zc8ne13: #3294F8;
+  /* Titles */
+  --Jr72Z28R: 600 1.5rem/130% "Overpass Mono", "JetBrains Mono", monospace;
+  --S6rA6c5a: 500 1.25rem/160% "Overpass Mono", "JetBrains Mono", monospace;
+  --izUi711s: 400 1.125rem/160% "Overpass Mono", "JetBrains Mono", monospace;
+  /* Text */
+  --Wi5L9q29: 400 1rem/160% "JetBrains Mono", monospace;
+  --If6O00YP: 400 0.875rem/160% "JetBrains Mono", monospace;
+  --h57NJ1u6: 500 0.75rem/160% "JetBrains Mono", monospace;
+  /* Collors */
+  --4B2tLF18: #040f1a;
+  --24SUsi1e: #071422;
+  --21qi9aTO: #0b1b2b;
+  --qW68S53o: #112131;
+  --1S3H03nK: #1c2f41;
+  --8j0Dyp1M: #3a536b;
+  --dnP6y7N9: #7b96b2;
+  --Uzv08AB4: #afc2d4;
+  --WXmW131M: #c4d4e3;
+  --x967KF5W: #e7edf4;
+  --9Zc8ne13: #3294f8;
 }
 
-* {
-    background: var(--24SUsi1e);
-    color: var(--Uzv08AB4);
+.vetvy {
+  background: var(--24SUsi1e);
+  color: var(--Uzv08AB4);
 }
 
 /* *! Presets */
 
 /* * Title H1 */
 .vetvy ._nnP030JW {
-    font: var(--Jr72Z28R);
-    color: var(--x967KF5W);
+  font: var(--Jr72Z28R);
+  color: var(--x967KF5W);
 }
 
 /* * SubTitle H2 */
 .vetvy ._hrx8E0I8 {
-    font: var(--S6rA6c5a);
-    color: var(--WXmW131M);
+  font: var(--S6rA6c5a);
+  color: var(--WXmW131M);
 }
 
 /* * SubTitle H3 */
 .vetvy ._Y8q8Y7d3 {
-    font: var(--izUi711s);
-    color: var(--WXmW131M);
+  font: var(--izUi711s);
+  color: var(--WXmW131M);
 }
 
 /* * Text */
 
 .vetvy ._7O7a88Vj {
-    font: var(--Wi5L9q29);
-    color: var(--Uzv08AB4);
+  font: var(--Wi5L9q29);
+  color: var(--Uzv08AB4);
 }
 
 .vetvy ._4W4pDO8p {
-    font: var(--Wi5L9q29);
-    color: var(--dnP6y7N9);
+  font: var(--Wi5L9q29);
+  color: var(--dnP6y7N9);
 }
 
 /** Link */
 
 .vetvy ._mw4j9OK5 {
-    font: var(--h57NJ1u6);
-    color: var(--9Zc8ne13);
+  font: var(--h57NJ1u6);
+  color: var(--9Zc8ne13);
 
-    text-transform: uppercase;
+  text-transform: uppercase;
+
+  text-decoration: underline;
+  outline-offset: 4px;
 }
 
-.vetvy ._mw4j9OK5 ._bAH728RX {
-    text-decoration: underline;
-    outline-offset: 4px;
+/** Tag I */
+
+.vetvy ._Y1rrP236 {
+  color: var(--9Zc8ne13);
+}
+
+.vetvy ._nnP030JW ._Y1rrP236 {
+  font: var(--Jr72Z28R);
+}
+
+.vetvy ._hrx8E0I8 ._Y1rrP236 {
+  font: var(--S6rA6c5a);
+}
+
+.vetvy ._Y8q8Y7d3 ._Y1rrP236 {
+  font: var(--izUi711s);
+}
+
+.vetvy ._7O7a88Vj ._Y1rrP236,
+.vetvy .__4W4pDO8p ._Y1rrP236 {
+  font: var(--Wi5L9q29);
 }
