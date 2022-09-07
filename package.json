@@ -1,5 +1,10 @@
 {
   "name": "vetvy",
+  "developer": {
+    "name": "Henry Rodrigues",
+    "email": "hhennryy@icloud.com",
+    "locate": "Alvorada - RS"
+  },
   "private": true,
   "version": "1.0.0",
   "type": "module",
