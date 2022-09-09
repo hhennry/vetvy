@@ -1,0 +1,14 @@
+/* Setting the maximum width of the element to 20rem. */
+.vetvy .max-wid-20 {
+  max-width: 20rem !important;
+}
+
+/* Setting the minimum width of the element to 16rem. */
+.vetvy .min-wid-16 {
+  min-width: 16rem !important;
+}
+
+/* Setting the width of the element to the available width. */
+.vetvy .wid-fill {
+  width: -webkit-fill-available;
+}
