@@ -1,9 +1,90 @@
+/* Styling the `&lt;div class="_4Zt4B161"&gt;` element. */
 .vetvy ._4Zt4B161 {
-    background-image: url(../image/XzE759nD.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(../image/XzE759nD.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+/* Styling the `&lt;div class="_4876ESXl"&gt;` element. */
 .vetvy ._4876ESXl {
-    background-color: var(--21qi9aTO);
+  background-color: var(--21qi9aTO);
+
+  border-radius: 0.5rem;
+
+  display: grid;
+  gap: 1.25rem;
+
+  z-index: 10;
+
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+
+  max-width: 60rem;
+
+  margin: auto;
+  padding: 1.5rem 1rem;
+}
+
+/* Styling the `&lt;div class="_676dosVc"&gt;` element. */
+.vetvy ._676dosVc {
+  display: grid;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 0.5rem;
+}
+
+/* Styling the `&lt;span&gt;` element inside the `&lt;div class="_676dosVc"&gt;` element. */
+.vetvy ._676dosVc span {
+  display: flex;
+  align-items: center;
+
+  gap: 0.375rem;
+}
+
+/* A media query. It is used to change the styling of the element when the screen is at least 640px
+wide. */
+@media (min-width: 640px) {
+  .vetvy ._4876ESXl {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 1.2rem 1.8rem;
+  }
+}
+
+/* A media query. It is used to change the styling of the element when the screen is at least 768px
+wide. */
+@media (min-width: 768px) {
+  .vetvy ._676dosVc {
+    display: grid;
+
+    grid-row-gap: 1rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* A media query. It is used to change the styling of the element when the screen is at least 860px
+wide. */
+@media (min-width: 860px) {
+  .vetvy ._676dosVc {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+  }
+}
+
+/* A media query. It is used to change the styling of the element when the screen is at least 1024px
+wide. */
+@media (min-width: 1024px) {
+  .vetvy ._4876ESXl {
+    gap: 3rem;
+
+    padding: 2rem 3rem;
+
+    box-shadow: none;
+    width: auto;
+  }
 }

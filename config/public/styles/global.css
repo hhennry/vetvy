@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Overpass+Mono:wght@400;500;600&display=swap");
 
 @import url("./layout.css");
+@import url("./home.css");
 @import url("./tailwind.css");
 
 @tailwind base;
@@ -28,6 +29,7 @@
   --WXmW131M: #c4d4e3;
   --x967KF5W: #e7edf4;
   --9Zc8ne13: #3294f8;
+  --wsU6538l: #7c42da;
 }
 
 .vetvy {
@@ -67,7 +69,7 @@
   color: var(--dnP6y7N9);
 }
 
-/** Link */
+/* * Link */
 
 .vetvy ._mw4j9OK5 {
   font: var(--h57NJ1u6);
@@ -77,9 +79,29 @@
 
   text-decoration: underline;
   outline-offset: 4px;
+
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
-/** Tag I */
+.vetvy ._mw4j9OK5:hover {
+  transition: all .4s;
+  color: var(--wsU6538l);
+}
+
+.vetvy ._mw4j9OK5:focus {
+  transition: all .4s;
+
+  color: var(--wsU6538l);
+  outline: .125rem dotted var(--wsU6538l);
+}
+
+/* Tag i */
 
 .vetvy ._Y1rrP236 {
   color: var(--9Zc8ne13);
@@ -100,4 +122,10 @@
 .vetvy ._7O7a88Vj ._Y1rrP236,
 .vetvy .__4W4pDO8p ._Y1rrP236 {
   font: var(--Wi5L9q29);
+}
+
+/* Configs */
+
+img, svg, a {
+  user-select: none;
 }
